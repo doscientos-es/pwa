@@ -87,6 +87,6 @@ jobs:
           git tag --annotate "v$VERSION" --message "v$VERSION"
           git push origin HEAD:main --follow-tags
       - name: Use npm with Trusted Publishing support
-        run: npm install --global npm@^11.5.1 --ignore-scripts
+        run: npm install --global npm@11.5.1 --ignore-scripts
       - name: Publish with provenance
         run: npm publish --provenance
