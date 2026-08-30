@@ -1,0 +1,54 @@
+{
+  "name": "@doscientos/pwa",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Safe, framework-aware PWA installation primitives for Doscientos applications.",
+  "license": "MIT",
+  "author": "Doscientos <dev@doscientos.es>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doscientos-es/pwa.git"
+  },
+  "homepage": "https://github.com/doscientos-es/pwa#readme",
+  "bugs": {
+    "url": "https://github.com/doscientos-es/pwa/issues"
+  },
+  "files": [
+    "*.d.ts",
+    "*.js",
+    "README.md"
+  ],
+  "type": "module",
+  "exports": {
+    "./core": {
+      "types": "./core.d.ts",
+      "import": "./core.js"
+    },
+    "./react": {
+      "types": "./react.d.ts",
+      "import": "./react.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "check": "node --test test/core.test.mjs",
+    "prepublishOnly": "npm run check",
+    "version:major": "npm version major --no-git-tag-version",
+    "version:minor": "npm version minor --no-git-tag-version",
+    "version:patch": "npm version patch --no-git-tag-version"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0 <20"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "pnpm@9.15.2"
+}
