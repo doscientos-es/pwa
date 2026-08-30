@@ -35,6 +35,7 @@
   "scripts": {
     "check": "node --test test/core.test.mjs",
     "prepublishOnly": "npm run check",
+    "release:check": "pnpm run check && npm pack --dry-run",
     "version:major": "npm version major --no-git-tag-version",
     "version:minor": "npm version minor --no-git-tag-version",
     "version:patch": "npm version patch --no-git-tag-version"
