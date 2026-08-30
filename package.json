@@ -1,6 +1,6 @@
 {
   "name": "@doscientos/pwa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Safe, framework-aware PWA installation primitives for Doscientos applications.",
   "license": "MIT",
