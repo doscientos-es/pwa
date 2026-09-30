@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "private": false,
   "description": "Safe, framework-aware PWA installation primitives for Doscientos applications.",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "author": "Doscientos <dev@doscientos.es>",
   "repository": {
     "type": "git",

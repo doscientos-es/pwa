@@ -30,3 +30,7 @@ continues patch releases from it. Configure npm Trusted Publishing for
 `doscientos-es/pwa`, workflow
 `.github/workflows/publish.yml`, and GitHub environment `npm-production`; no
 registry token is stored in the repository.
+
+## Licencia y crédito
+
+Licencia propia [DAL v1.0](./LICENSE): uso gratuito, también comercial, instalando el paquete desde npm sin modificarlo, a cambio de dar crédito visible a Doscientos (por ejemplo: «Built with @doscientos/pwa by Doscientos — https://doscientos.es»). No se permite modificar, redistribuir ni ofrecer el paquete como servicio. Las versiones publicadas antes bajo MIT siguen siendo MIT.
